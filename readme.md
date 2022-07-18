@@ -1,9 +1,9 @@
 # Free YouTube downloader
 ## Spustenie (local):
-0) pre projekt je potrebné mať nainštalovaný ffmpeg (https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z),
-zip je potrebne unzipnut a zlozku premenovat na "ffmpeg", nasledne tuto zlozku pridat do projektu free-ytd-reupload.
-Potom vysledny adresar by mohol vyzerat takto:
-free-ytd-reupload:
+0) pre projekt je potrebné mať nainštalovaný ffmpeg (https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z),<br>
+zip je potrebne unzipnut a zlozku premenovat na "ffmpeg", nasledne tuto zlozku pridat do projektu free-ytd-reupload.<br>
+Potom vysledny adresar by mohol vyzerat takto:<br>
+free-ytd-reupload:<br>
       |
       - ffmpeg/ 
       - public/
