@@ -1,0 +1,29 @@
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href='./styles/main.css'/>
+  <script src="client.js"></script>
+</head>
+<body id="body_id">
+  
+<div id=main-header-image>
+  <img class="header-img" src="./images/header_img.svg" alt="header-image">
+
+<form action='/' method="POST">
+  <div id="urlspan ">
+    <input id="urlinput" name="downloadURL" type="text" id="downloadURL" value="" placeholder="insert URL"><br><br>
+  </div>  
+    <h3 class="isValidVid">Je toto názov Vašej pesničky?</h3>
+    <h3 id="progress" class="UrlIdTitle isValidVid">progress</h3>
+    <a href=""  target="blank_">
+      <input id="download-btn" onclick="InfoAJAX()" type="submit"  value="Stiahni">
+    </a>
+  </form>
+  
+</div>
+<a href="#" onclick='window.location.reload(true);'>
+  <input id="refresh-btn" type="submit"  value="refresh">
+</a>
+
+</body>
+
+</html>

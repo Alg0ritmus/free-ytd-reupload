@@ -1,0 +1,30 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "14.17"
+  },
+  "main": "download.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "http-proxy": "^1.18.1",
+    "js-ffmpeg": "^0.0.29",
+    "mime": "^2.5.2",
+    "node-gyp-build": "^4.2.3",
+    "uuid": "^8.3.2",
+    "video-converter": "^1.0.0",
+    "websocket": "^1.0.34",
+    "ws": "^7.5.2",
+    "ytdl-core": "^4.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node download.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
